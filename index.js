@@ -490,7 +490,7 @@ if (!message.content.startsWith(prefix) || message.author.bot) return;
 const args = message.content.slice(prefix.length).trim().split(' ');
 const command = args.shift().toLowerCase();
 if (command == 'id') {
-   if(message.member.roles.cache.some(r => r.name === 'Người Cầm Quyền')){
+   if(message.member.roles.cache.some(r => r.name === 'Control Bot')){
         if (!args.length) {
           return message.channel.send(`Chưa nhập ID sao tìm má, ${message.author}!`);
         }
