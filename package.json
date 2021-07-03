@@ -1,0 +1,23 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "node index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "channel": "0.0.1",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "edit-json-file": "^1.4.1",
+    "http": "0.0.1-security",
+    "parse-ms": "^2.1.0",
+    "request": "^2.88.2",
+    "snekfetch": "^4.0.4",
+    "yt-search": "^2.1.9"
+  },
+  "devDependencies": {},
+  "description": ""
+}
